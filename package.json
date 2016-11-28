@@ -1,6 +1,6 @@
 {
   "name": "hyperbolic",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "is a model for the hyperbolic plane",
   "scripts": {
     "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
