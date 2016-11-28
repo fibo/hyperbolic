@@ -1,0 +1,34 @@
+{
+  "name": "hyperbolic",
+  "version": "0.0.0",
+  "description": "is a model for the hyperbolic plane",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/hyperbolic.git"
+  },
+  "keywords": [
+    "geometry",
+    "hyperbolic",
+    "plane"
+  ],
+  "bugs": {
+    "url": "https://github.com/fibo/hyperbolic/issues"
+  },
+  "homepage": "http://g14n.info/hyperbolic",
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "dependencies": {
+    "internal-ip": "1.x",
+    "opn": "4.x"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dot-editorconfig": "^0.3.0"
+  }
+}
